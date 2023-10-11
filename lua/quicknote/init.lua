@@ -31,9 +31,9 @@ end
 
 --- @class Options
 --- @field notes_dir string
---- @field page_header string | function
---- @field note_header string | function
---- @field file_name string | function
+--- @field page_header string | function(): string
+--- @field note_header string | function(): string
+--- @field file_name string | function(): string
 
 --- @type Options
 local DEFAULT_CONFIG = {
